@@ -4,8 +4,8 @@
    <!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
 
 <Module>
-<ModulePrefs title="hello world example"/>
+<ModulePrefs title="hello world xxx&xxe;xxxxxx   example"/>
 <Content type="html"><![CDATA[
 Hello, world! &xxe;
-]]></Content>
+]]><foo></foo></foo></Content>
 </Module>
