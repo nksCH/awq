@@ -7,5 +7,5 @@
 <ModulePrefs title="hello world xxx&xxe;xxxxxx   example"/>
 <Content type="html"><![CDATA[
 Hello, world! &xxe;
-]]><foo></foo></foo></Content>
+]]><foo></foo></Content>
 </Module>
